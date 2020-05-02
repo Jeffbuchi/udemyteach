@@ -1,0 +1,376 @@
+.App{
+  padding: 0px 20px 0px 0px;
+}
+
+
+.feed {
+  width: 275px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  
+ 
+}
+
+.feed .logo{
+  padding: 20px 25px;
+}
+
+.feed .logo img {
+  height: 40px;
+}
+
+.feed .nav {
+  padding: 50px 35px;
+}
+
+
+
+.feed .nav li a {
+  align-items: center;
+  padding: 0px 0px;
+}
+
+.feed .nav li a .ico {
+  margin-right: 10px;
+}
+
+
+
+.feed .nav li a.on .active,
+.feed .nav li a.on {
+  color: lightsalmon;
+  line-height: 1;
+}
+
+.feed .updated-course {
+  padding: 0px 35px;
+  margin: 20px 0px
+}
+
+.feed .updated-course .ico{
+  background: lightsalmon;
+  color: white;
+  padding: 10px;
+  border-radius: 22px;
+}
+
+.feed .updated-course .lbl{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.feed .me{
+  padding: 20px 40px;
+}
+.feed .me .photo{
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-right: 10px;
+  background: white;
+
+
+}
+.feed .me img{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+.feed .me .lbl{
+  font-weight: bolder;
+}
+
+.home-page{
+  margin-left: 280px;
+}
+
+.app-content {
+  flex: 2;
+  padding: 20px 0px;
+}
+
+.home-page .section .title{
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode";
+  color: brown;
+  margin-left: 300px;
+}
+
+.home-page .section .tutors .tutor{
+  border: 2px lightpink solid;
+  background: white;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 3px
+}
+
+
+
+
+.home-page .section .tutors .tutor img{
+  width: 100%;
+  height: 100%;
+  border-radius: 55px
+}
+
+
+.home-page .section2{
+  margin-top: 50px;
+}
+
+
+  .blk {
+  width: 300x;
+  height: 300px;
+  background: lightgrey;
+  border-radius: 20px;
+  background-size: cover !important;
+}
+
+ 
+ .blk .user .inset{
+  width: 40px;
+  height: 40px;
+  border: 2px white solid;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 10px;
+ 
+  
+}
+
+ .blk .user img{
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+ .blk .dura {
+  top: 145px;
+  left: 20px;
+  background: blueviolet;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.blk .course-title {
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.youtubediv {
+  margin-left: 980px;
+  padding: 20px 0px;
+  
+ 
+  }
+
+ 
+
+  .content-page {
+    margin-left: 300px;
+    
+  }
+
+ 
+  
+  
+  .content-page .tutor .inset img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+  }
+ 
+  .content-page .content-meta{
+    padding: 40px 0px;
+  }
+  .content-page .content-meta .title{
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: darkblue;
+ 
+  }
+  .content-page .content-meta .about {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: firebrick;
+  }
+  .content-video{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+  }
+  .content-video a{
+    margin: 10px 0px;
+  }
+  .content-video a .id{
+    background: blue;
+    color: white;
+    flex: 1;
+    width: 50px;
+    height: 20px;
+    border-radius: 14px;
+    padding: 20px 14px;
+    box-sizing: border-box;
+   
+    
+  }
+  .content-video a .meta{
+    margin-bottom: 10px;
+  }
+ 
+  .content-info{
+    flex: 1;
+  }
+
+  .content-preview{
+    flex: 2 1;
+  }
+
+  .content .about {
+    font-family: 'Times New Roman';
+  }
+
+  .welcome {
+    margin-left: 280px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+   
+  }
+
+  .text-logon {
+    margin-left: 400px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: darkblue;
+  }
+  
+
+
+
+  .logon {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color:darkgrey;
+    
+  }
+
+  .youtubediv {
+    margin-left: 300px;
+    
+  }
+
+  .youbtn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 350px;
+    background-color: aqua;
+  }
+
+  .vid-text{
+    font-family:  'Lucida Sans Unicode';
+    color: crimson;
+  }
+
+  
+  
+.welcome img {
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.get-image {
+  margin-left: 350px;
+}
+.nav-img {
+  color: lightseagreen;
+  font-family:  'sans-serif';
+  font-weight: bold;
+}
+
+.img-text {
+  font-family: 'Lucida Sans Unicode';
+  color: deeppink;
+}
+
+.img-content{
+  font-family: 'Lucida Sans Unicode';
+  
+}
+
+.img-login {
+  border-radius: 50px;
+  margin-top: 2px;
+}
+
+
+PROJ.CSS
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px
+}
+
+button {
+    outline: none;
+    cursor: pointer
+}
+
+.flex{position: flex;}
+.align{align-items: center;}
+.justify{justify-content: center;}
+.fixed{position: fixed;}
+.abs{position: absolute}
+.rel{position: relative}
+
+.noul{text-decoration: none;}
+
+.block{display: block;}
+.grey{color: grey;}
+.black{color: black}
+
+.s13{font-size: 13px;}
+.s24 {font-size: 20px;}
+.s15{font-size: 20px;
+    font-family: tahoma;
+    color: azure;
+}
+.s7{font-size: 25px}
+
+.fontb {
+    font-weight: normal;
+}
+.fontz {
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 
 //import logo from './logo.svg';
-import'./css/udemyfont.css';
+
 import './css/proj.css';
 import './css/App.css';
 
-import Header from './visuals/header';
+
 import Feed from './visuals/feed';
 import HomePage from './visuals/home';
 import YotubePage from'./visuals/videopage';
@@ -33,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+
