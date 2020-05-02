@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+//import logo from './logo.svg';
+import'./css/udemyfont.css';
+import './css/proj.css';
+import './css/App.css';
+
+import Header from './visuals/header';
+import Feed from './visuals/feed';
+import HomePage from './visuals/home';
+import YotubePage from'./visuals/videopage';
+import ContentPage from './visuals/content';
+import WelcomePage from './visuals/welcome';
+import Images from './visuals/imgur';
+import {Route,NavLink,HashRouter} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex">
+      < WelcomePage />
+      <HashRouter>
+      < Feed />
+      <div className = "app-content">
+        <Route exact path = "/" component ={HomePage} />
+        <Route path = "/content/:contentid" component={ContentPage}/>
+        <Route path = "/imgur" component = {Images}/>
+        <Route path = "/videopage" component = {YotubePage}/>
+      </div>
+      </HashRouter>
+     
     </div>
+    
   );
 }
 
