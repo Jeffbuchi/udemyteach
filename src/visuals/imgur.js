@@ -2,9 +2,19 @@ import React, {useState} from "react";
 import StarRatings from "react-star-ratings";
 
 
-   function Images() {
-       const [image, setImage] = useState("");
-       const [loading, setLoading] = useState(false);
+   const Images = () => {
+       function useLocalState(localItem) {
+           const [loc, setState] = useState(localStorage.getItem(localItem));
+
+           function setLoc(newItem) {
+               localStorage.setItem(localItem, newItem);
+               setState(newItem);
+           }
+
+           returnn [loc, setLoc];
+       }
+       const [image, setImage] = useLocalState("image");
+       const [loading, setLoading] = useLocalState(false);
        
 
        const uploadImage = async e => {
