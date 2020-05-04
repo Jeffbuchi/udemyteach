@@ -11,7 +11,7 @@ import StarRatings from "react-star-ratings";
                setState(newItem);
            }
 
-           returnn [loc, setLoc];
+           return [loc, setLoc];
        }
        const [image, setImage] = useLocalState("image");
        const [loading, setLoading] = useLocalState(false);
