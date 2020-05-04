@@ -27,7 +27,7 @@ function WelcomePage() {
             <br/>
             <img className = "img-login" src = {url} alt = {name}/>
             { !login ? <GoogleLogin className = "logon"
-    clientId="672887848607-co6oc96addhhqj2l9ep1t3vbgsbpeko7.apps.googleusercontent.com"
+    clientId="35041798621-lu7bdn5b402mhcgmq9g8o78h2crf6v85.apps.googleusercontent.com"
     buttonText="Login"
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
