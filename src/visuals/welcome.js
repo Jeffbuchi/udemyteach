@@ -5,12 +5,11 @@ import ReactDOM from "react-dom";
 import GoogleLogin from "react-google-login";
 
 function WelcomePage() {
-
-    const [login, setLogin] = useState(false);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [url, setUrl] = useState("");
-    
+    const [login, setLogin] = useState(false);
+
     useEffect(() => {
         document.title = "Welcome"
     })
