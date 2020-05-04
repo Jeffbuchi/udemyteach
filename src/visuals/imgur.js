@@ -14,7 +14,7 @@ import StarRatings from "react-star-ratings";
            return [loc, setLoc];
        }
        const [image, setImage] = useLocalState("image");
-       const [loading, setLoading] = useLocalState(false);
+       const [loading, setLoading] = useState(false);
        
 
        const uploadImage = async e => {
