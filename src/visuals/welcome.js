@@ -6,13 +6,14 @@ import GoogleLogin from "react-google-login";
 
 function WelcomePage() {
 
-    useEffect(() => {
-        document.title = "Welcome"
-    })
     const [login, setLogin] = useState(false);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [url, setUrl] = useState("");
+    
+    useEffect(() => {
+        document.title = "Welcome"
+    })
     const responseGoogle = response => {
        setName(response.profileObj.name);
        setEmail(response.profileObj.email);
